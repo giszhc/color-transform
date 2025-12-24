@@ -1,0 +1,30 @@
+{
+  "name": "@giszhc/color-transform",
+  "version": "0.0.1",
+  "type": "module",
+  "files": ["dist"],
+  "main": "dist/color-transform.cjs.js",
+  "module": "dist/color-transform.es.js",
+  "types": "dist/types/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giszhc/color-transform.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giszhc/color-transform/issues"
+  },
+  "homepage": "https://github.com/giszhc/color-transform#readme",
+  "scripts": {
+    "dev": "vite",
+    "build:types": "tsc -p tsconfig.build.json",
+    "build": "pnpm run build:types && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  }
+}
