@@ -1,12 +1,12 @@
 {
   "name": "@giszhc/color-transform",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "dist/color-transform.cjs.js",
-  "module": "dist/color-transform.es.js",
+  "main": "dist/color-transform.cjs",
+  "module": "dist/color-transform.js",
   "types": "dist/types/index.d.ts",
   "publishConfig": {
     "access": "public"
@@ -22,7 +22,7 @@
   "scripts": {
     "dev": "vite",
     "build:types": "tsc -p tsconfig.build.json",
-    "build": "pnpm run build:types && vite build",
+    "build": "vite build && pnpm run build:types",
     "preview": "vite preview"
   },
   "devDependencies": {
