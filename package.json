@@ -1,8 +1,10 @@
 {
   "name": "@giszhc/color-transform",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/color-transform.cjs.js",
   "module": "dist/color-transform.es.js",
   "types": "dist/types/index.d.ts",
